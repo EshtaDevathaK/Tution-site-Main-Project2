@@ -60,7 +60,10 @@ const HeroSection = () => {
           <strong className="text-yellow-300"> individual attention</strong> and 
           <strong className="text-yellow-300"> conceptual clarity</strong> for lasting success.
         </p>
-
+        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed"> {/* Large, readable subtext */}
+           <strong className="text-yellow-300">LEARN BETTER</strong> and 
+          <strong className="text-yellow-300"> SCORE HIGHER</strong> for lasting success.
+        </p>
         {/* Call-to-action buttons container */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"> {/* Responsive button layout */}
           

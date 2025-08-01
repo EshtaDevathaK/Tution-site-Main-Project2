@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'; // React hooks for state and lifecycle management
 import { Menu, X, BookOpen } from 'lucide-react'; // Lucide icons for UI elements
 import { Button } from '@/components/ui/button'; // Custom button component
-
+import computerBg from '../assets/siran-tution.jpg'; // Computer Science background with code
 /* 
 Header Component - Top navigation with logo, menu items, and theme toggle
 Features: Responsive navigation, dark/light mode toggle, mobile hamburger menu
@@ -49,13 +49,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-16"> {/* Header content layout */}
           
           {/* *********** Logo and brand section */}
-          <div className="flex items-center space-x-2">
-            <BookOpen className="h-8 w-8 text-primary" /> {/* Book icon representing education */}
-            <span className="text-xl font-bold text-foreground">Siran Tuition Centre</span> {/* Brand name */}
-           </div>
+<div className="flex items-center space-x-2">
+  <img src={computerBg} alt="Siran Tuition Logo" className="h-10 w-auto" />
+  <span className="text-xl font-bold text-foreground">Siran Tuition Centre</span>
+</div>
+
 
           {/* Desktop navigation menu */}
-          <nav className="hidden md:flex items-center space-x-8"> {/* Hidden on mobile, visible on medium+ screens */}
+          <nav className="hidden md:flex items-center space-x-5"> {/* Hidden on mobile, visible on medium+ screens */}
             <Button variant="outline" size="sm"  
               onClick={() => scrollToSection('about')} 
               className="text-foreground hover:text-primary transition-colors duration-200" // Smooth color transition on hover

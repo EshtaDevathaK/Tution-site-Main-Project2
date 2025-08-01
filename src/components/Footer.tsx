@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, Clock, BookOpen } from 'lucide-react'; // Lucide icons for contact info
-
+import computerBg from '../assets/siran-tution.jpg'; // Computer Science background with code
 /* 
 Footer Component - Contact information and site footer
 Features: Contact details, business hours, social links, clean layout
@@ -36,10 +36,10 @@ const Footer = () => {
           <div className="lg:col-span-2"> {/* Spans 2 columns on large screens */}
             
             {/* Brand section */}
-            <div className="flex items-center space-x-2 mb-4"> {/* Brand layout */}
-              <BookOpen className="h-8 w-8 text-primary" /> {/* Brand icon */}
-              <span className="text-2xl font-bold text-foreground">TuitionPro</span> {/* Brand name */}
-            </div>
+<div className="flex items-center space-x-2">
+  <img src={computerBg} alt="Siran Tuition Logo" className="h-10 w-auto" />
+  <span className="text-xl font-bold text-foreground">Siran Tuition Centre</span>
+</div>
 
             {/* Tagline */}
             <p className="text-muted-foreground mb-4 max-w-md leading-relaxed"> {/* Description with max width */}

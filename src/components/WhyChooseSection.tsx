@@ -125,7 +125,7 @@ const WhyChooseSection = () => {
 
             {/* Statistic 3 - Teaching Experience */}
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-primary mb-2">8+</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary mb-2">3+</div>
               <div className="text-muted-foreground text-sm">Years Experience</div>
             </div>
 

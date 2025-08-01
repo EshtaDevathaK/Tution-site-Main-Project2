@@ -35,7 +35,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 lg:px-6"> {/* Container with responsive padding */}
         
         {/* Two-column layout container */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center"> {/* Grid layout with gap, centered items */}
+        <div className=" items-center"> {/* Grid layout with gap, centered items */}
           
           {/* Left column - Text content */}
           <div className="space-y-6"> {/* Vertical spacing between elements */}
@@ -57,7 +57,7 @@ const AboutSection = () => {
 
             {/* Description paragraph */}
             <p className="text-lg text-muted-foreground leading-relaxed"> {/* Large, readable text */}
-              With over 8 years of dedicated teaching experience, I specialize in creating 
+              With over 3 years of dedicated teaching experience, I specialize in creating 
               personalized learning experiences that help students excel in their academic journey. 
               My approach focuses on building strong conceptual foundations while maintaining 
               individual attention for each student.
@@ -98,55 +98,7 @@ const AboutSection = () => {
               })}
             </div>
           </div>
-
-          {/* Right column - Image/Visual content */}
-          <div className="relative"> {/* Relative positioning for absolute children */}
-            
-            {/* Main image container */}
-            <div className="relative bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl p-8 lg:p-12"> {/* Gradient background with rounded corners */}
-              
-              {/* Placeholder for tutor image - replaced with styled content */}
-              <div className="aspect-square bg-gradient-to-br from-primary/30 to-primary/10 rounded-xl flex items-center justify-center mb-6"> {/* Square aspect ratio container */}
-                <div className="text-center"> {/* Centered content */}
-                  <Award className="h-16 w-16 text-primary mx-auto mb-4" /> {/* Large award icon */}
-                  <h3 className="text-xl font-bold text-foreground mb-2">Excellence in Education</h3> {/* Title */}
-                  <p className="text-muted-foreground">Dedicated to Student Success</p> {/* Subtitle */}
-                </div>
-              </div>
-
-              {/* Achievement highlights */}
-              <div className="space-y-3"> {/* Vertical spacing for achievements */}
-                
-                {/* Achievement 1 */}
-                <div className="flex items-center space-x-3 bg-background/50 backdrop-blur-sm rounded-lg p-3"> {/* Semi-transparent background */}
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" /> {/* Check icon */}
-                  <span className="text-sm font-medium text-foreground">8+ Years Teaching Experience</span> {/* Achievement text */}
-                </div>
-
-                {/* Achievement 2 */}
-                <div className="flex items-center space-x-3 bg-background/50 backdrop-blur-sm rounded-lg p-3">
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-sm font-medium text-foreground">95% Student Success Rate</span>
-                </div>
-
-                {/* Achievement 3 */}
-                <div className="flex items-center space-x-3 bg-background/50 backdrop-blur-sm rounded-lg p-3">
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-sm font-medium text-foreground">Specialized in Multiple Subjects</span>
-                </div>
-
-                {/* Achievement 4 */}
-                <div className="flex items-center space-x-3 bg-background/50 backdrop-blur-sm rounded-lg p-3">
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-sm font-medium text-foreground">Flexible Learning Approach</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Decorative floating elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float"></div> {/* Floating decorative circle */}
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary/30 rounded-full blur-lg animate-float" style={{animationDelay: '1s'}}></div> {/* Another floating circle with delay */}
-          </div>
+ 
         </div>
       </div>
     </section>
